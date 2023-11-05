@@ -1,0 +1,38 @@
+.heading{
+    text-indent:10% 10%;
+    text-align: center;
+    margin:auto;
+    background-color: azure;
+    color:#000;
+    height:50px;
+    border:5px hwb(34 54% 18%);
+}
+body{
+    background-color:#bddeec ;
+}
+legend{
+    background-color: hwb(34 54% 18%);
+    color:azure;
+
+}
+fieldset{
+    padding:10px;
+    background-color:azure ;
+    border: 5px hsl(34, 45%, 68%);
+}
+.elective{
+    padding:10px;
+}
+table{
+    padding:10px;
+    border-spacing: 5px;
+}
+button{
+    border:  #000 5px;
+    margin: 1% 45%;
+    text-align: center;
+    width:70px;
+    height:50px;
+    text-size:20px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+    <div class="heading">
+        <h2> ELECTIVE CHOOSING FORM</h2>
+    </div>
+</head>
+<body>
+    <form>
+      <fieldset class="name">
+        <legend> Name & Roll No </legend>
+      <table>
+        <tr>
+        <td>
+      <label for="fname"> First Name</label> 
+      </td>
+      <td>
+      <input type="text" id="fname" name="fname">
+      </td>
+      </tr>
+      <tr>
+        <td>
+      <label for="lname"> Last Name</label> 
+      </td>
+      <td>
+      <input type="text" id="lname" name="lname">
+      </td>
+      </tr>
+      <tr>
+        <td>
+        <label id="rollno"> Roll no</label>
+        </td>
+        <td>
+        <input type="text" id="rollno" name="rollno">
+        </td>
+        </tr>
+        </table>
+      </fieldset>
+      <br>
+      <fieldset class="course">
+        <legend> Course *</legend>
+        <input type="radio" id="iot" name="course" value="IOT">
+        <label for="iot"> IOT</label>
+        <br>
+        <input type="radio" id="aids" name="course" value="AIDS">
+        <label for="aids"> AI-DS</label>
+      </fieldset>
+      <br>
+      <fieldset class="elective">
+        <legend> Choose the Elective * </legend>
+        <input type="radio" id="cybersecurity" name="elective" value="cybersecurity">
+        <label for="cybersecurity"> Cyber Security</label>
+        <br>
+        <input type="radio" id="web technology" name="elective" value="web technologyY">
+        <label for="web technology"> Web Technology </label>
+        <br>
+        <input type="radio" id="ethical hacking" name="elective" value="ethical hacking">
+        <label for="ethical hacking"> ethical hacking </label>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>not compulsory </legend>
+        <p><label id="opinion"> your opinion </label>
+        </p>
+        <textarea id="text area" name="your opion" rows="5" cols="50">
+        </textarea>
+      </fieldset>
+      <br>
+      <button type="button" on click="">Submit</button>
+    </form>
+</body>
+</html>
